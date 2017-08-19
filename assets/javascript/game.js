@@ -1,4 +1,4 @@
-<script type="text/javascript">
+// <script type="text/javascript">
 // //This part interacts with the user
 var readyToplay = confirm("are you ready to play")
 {
@@ -40,4 +40,4 @@ var userText = document.getElementById("userText");
       document.onkeyup = function(event) {
        userText.textContent = event.key;
      };
-</script>
+// </script>
