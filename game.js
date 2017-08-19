@@ -1,3 +1,4 @@
+<meta charset="UTF-8">
 <script type="text/javascript" src="game.js">
 // //This part interacts with the user
 var readyToplay = confirm("are you ready to play")
