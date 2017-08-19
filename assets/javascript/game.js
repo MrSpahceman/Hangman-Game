@@ -1,4 +1,4 @@
-// <script type="text/javascript">
+
 // //This part interacts with the user
 var readyToplay = confirm("are you ready to play")
 {
@@ -23,16 +23,16 @@ LetterG:6,
 letters:["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "_"]
 }
 // Trying to capture keyboard input.
-// doucment.onkeyup =function(event)
-{
-  //Attempting to alert when a correctGuess was selected
-// correctGuess: function() {
-  // alert("Correct letter");
-}
-  // var letters =String.fromCharCode(event.keyCode).toLowerCase();
-  // if (letters="D"){Hangman.correctGuess();
+//  doucment.onkeyup =function(event)
+// {
+//   //Attempting to alert when a correctGuess was selected
+// // correctGuess: function() {
+//   // alert("Correct letter");
 
-  // }
+//   var letters =String.fromCharCode(event.keyCode).toLowerCase();
+//   if (letters="D"){Hangman.correctGuess();
+
+//   }
 
 var userText = document.getElementById("userText");
 
@@ -40,4 +40,3 @@ var userText = document.getElementById("userText");
       document.onkeyup = function(event) {
        userText.textContent = event.key;
      };
-// </script>
