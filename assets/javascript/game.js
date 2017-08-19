@@ -1,9 +1,4 @@
- <script scr="game.js">
-
-
-
-
-
+<script type="text/javascript">
 // //This part interacts with the user
 var readyToplay = confirm("are you ready to play")
 {
@@ -26,8 +21,6 @@ var readyToplay = confirm("are you ready to play")
  LetterO:14,
 LetterG:6,
 letters:["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "_"]
-
-
 }
 // Trying to capture keyboard input.
 // doucment.onkeyup =function(event)
@@ -41,15 +34,10 @@ letters:["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "
 
   // }
 
-
 var userText = document.getElementById("userText");
 
      // Key up function to track letters guesed
       document.onkeyup = function(event) {
        userText.textContent = event.key;
      };
-
-
-
-  
 </script>
